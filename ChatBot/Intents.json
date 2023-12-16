@@ -1,0 +1,81 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "Hi there",
+                "Hey",
+                "Good morning",
+                "Good afternoon"
+            ],
+            "responses": [
+                "How can I assist you today?"
+            ]
+        },
+        {
+            "tag": "schedule_meeting",
+            "patterns": [
+                "Can we schedule a meeting?",
+                "I need to set up a meeting",
+                "Let's book a meeting",
+                "Schedule a meeting for me",
+                "Organize a meeting"
+            ],
+            "responses": [
+                "Sure, your meeting has been scheduled."
+            ]
+        },
+        {
+            "tag": "set_up_reminder",
+            "patterns": [
+                "Please remind me about the meeting",
+                "Set a reminder for my meeting",
+                "Don't let me forget the meeting",
+                "I need a reminder for the meeting",
+                "Remind me later about the meeting"
+            ],
+            "responses": [
+                "I've set up a reminder for you."
+            ]
+        },
+        {
+            "tag": "give_tip_productivity",
+            "patterns": [
+                "Any tips for productivity?",
+                "How can I make my meeting more effective?",
+                "Give me a productivity tip",
+                "Tips for a productive meeting?",
+                "How to have an effective meeting?"
+            ],
+            "responses": [
+                "One tip for productive meetings is to have a clear agenda and stick to it. Anything else I can help you with?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Appreciate your help",
+                "That's helpful, thanks"
+            ],
+            "responses": [
+                "You're welcome! Feel free to reach out if you need more assistance."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "See you later",
+                "That's all for now",
+                "I have to go"
+            ],
+            "responses": [
+                "Goodbye! Have a great day ahead."
+            ]
+        }
+    ]
+}
+
